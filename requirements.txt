@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wildlife Exploration</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+      color: #fbf9f7;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-attachment: fixed;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 6px #000;
+      user-select: none;
+      border-bottom: 3px solid #d2b48c;
+    }
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 3rem auto;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 2.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgb(0 0 0 / 0.6);
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+      color: #f7e9d7;
+      text-shadow: 1px 1px 2px #4a3c31;
+    }
+    p {
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: #e9e6dfcc;
+      margin-bottom: 1.8rem;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgb(0 0 0 / 0.7);
+      margin-bottom: 1.8rem;
+      user-select: none;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #d2b48c;
+      color: #2c3e50;
+      font-weight: 700;
+      padding: 0.8rem 2.2rem;
+      text-decoration: none;
+      font-size: 1.125rem;
+      border-radius: 30px;
+      box-shadow: 0 4px 15px rgb(210 180 140 / 0.7);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+    .btn:hover {
+      background-color: #c19a6b;
+      box-shadow: 0 6px 22px rgb(193 154 107 / 0.8);
+    }
+    footer {
+      background: rgba(0, 0, 0, 0.6);
+      color: #d2b48c;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      user-select: none;
+    }
+    @media (max-width: 480px) {
+      header {
+        font-size: 2rem;
+      }
+      main {
+        margin: 2rem 1rem;
+        padding: 2rem 1.5rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      .btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Wildlife Exploration
+  </header>
+  <main>
+    <h1>Discover the Wonders of Wildlife</h1>
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Wildlife Nature" draggable="false" />
+    <p>Explore the breathtaking beauty of the natural world. From dense forests to open savannas, wildlife thrives all around us, offering a glimpse into the incredible diversity of life. Protecting these habitats is vital for future generations.</p>
+    <a href="#" class="btn" onclick="alert('Thank you for your interest in wildlife conservation!')">Join the Movement</a>
+  </main>
+  <footer>
+    &copy; 2024 Wildlife Exploration. All rights reserved.
+  </footer>
+  <script>
+    // Script can be expanded for more interactivity
+  </script>
+</body>
+</html>
